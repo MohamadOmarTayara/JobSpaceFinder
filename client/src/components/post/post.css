@@ -1,0 +1,118 @@
+.post {
+  display: flex;
+  margin-top: 18px;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.post:hover {
+  background: #226d69;
+}
+
+.button {
+  background-color: #105652;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 7px 4px 7px 7px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #b91646;
+  text-decoration: none;
+  color: white;
+}
+
+.buttons button {
+  background-color: #105652;
+  text-decoration: none;
+  margin: 7px 4px 7px 7px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  display: inline;
+  text-align: center;
+  padding: 5px 8px;
+
+  align-content: center;
+}
+
+.buttons button:hover {
+  background-color: #b91646;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.buttons button:focus {
+  outline: none;
+}
+
+.user-link {
+  color: black;
+  text-decoration: none;
+}
+
+.comment-link {
+  text-decoration: none;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 2em;
+  padding-left: 2px;
+}
+
+.Go-to-comment {
+  background-color: #105652;
+  margin-left: 3px;
+  padding: 7px;
+  padding-bottom: 9px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.Go-to-comment:hover {
+  background-color: #b91646;
+  color: white;
+}
+
+#delete {
+  margin-left: 220px;
+  background-color: #b91646;
+}
+
+.user-link:hover {
+  color: #b91646;
+}
+
+.item {
+  height: 470px;
+}
+.post-desc {
+  color: black;
+  margin-left: 3px;
+  white-space: pre-wrap;
+}
+.image-video {
+  /* min-height: 350px; */
+  min-width: 25rem;
+  min-height: 470px;
+}
+.desc {
+  overflow-y: scroll;
+}
+
+.caption {
+  -webkit-text-stroke: 0.2px black;
+  -webkit-text-fill-color: white;
+  font-weight: bold;
+}

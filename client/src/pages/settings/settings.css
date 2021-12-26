@@ -1,0 +1,101 @@
+.settings-background {
+  background: #ffff;
+  min-height: 80vh;
+  color: #105652;
+  display: flex;
+  justify-content: center;
+}
+
+.settings-form {
+  min-width: 60%;
+  background: #dfd8ca;
+  margin: 35px 0px;
+  border-radius: 14px;
+  padding: 25px;
+}
+
+.settings-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #105652;
+  background: transparent;
+  color: #105652;
+  margin: 10px 0;
+}
+
+.settings-input::placeholder {
+  color: #105652;
+}
+
+.settings-bio {
+  height: 100px;
+  resize: none;
+  margin: 15px 0px;
+}
+
+.settings-input:focus,
+.settings-input:hover {
+  outline: none;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.settings-headings {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.addPhoto {
+  display: inline;
+  border-radius: 10px;
+  display: flex;
+  background-color: #105652;
+  padding: 4px 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.addPhoto:hover {
+  background-color: #b91646;
+}
+.settings-file {
+  margin: 10px 0px;
+  background-color: #105652;
+}
+
+.settings-btn {
+  width: 100%;
+  padding: 10px 18px;
+  background-color: #105652;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 35px 0;
+  text-align: center;
+}
+
+.settings-btn:hover {
+  background-color: #b91646;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.settings-btn:focus {
+  outline: none;
+}
+.settings-file {
+  background-color: #b91646;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.settings-form div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

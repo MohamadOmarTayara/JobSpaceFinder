@@ -1,0 +1,88 @@
+.info {
+  background: #fbf3e4;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Pic {
+  width: 250px;
+  height: 250px;
+  border-style: groove;
+  border-width: 1px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.infoContent {
+  text-align: center;
+  padding: 20px;
+  color: #25333d;
+}
+
+.bio {
+  margin: 10px;
+  white-space: pre-wrap;
+}
+
+.details {
+  font-weight: 700;
+  margin-top: 5px;
+  display: inline;
+  margin: 0px 20px 0px 20px;
+}
+
+.details span {
+  font-weight: 500;
+}
+
+.info-btn {
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 7px;
+  background-color: #105652;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 8rem;
+  text-decoration: none;
+}
+
+.info-btn:hover {
+  background-color: #b91646;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.info-btn:focus {
+  outline: none;
+}
+
+.username {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.first {
+  display: flex;
+  margin-top: 2px;
+}
+
+.btn {
+  outline-color: black;
+  outline-style: solid;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin: 5px auto;
+}
+
+.acc2 {
+  margin-top: 10px;
+  width: 800px;
+}

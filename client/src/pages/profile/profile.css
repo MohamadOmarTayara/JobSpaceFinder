@@ -1,0 +1,19 @@
+.profile {
+  width: 90%;
+  border-radius: 14px;
+  padding: 25px;
+  justify-content: center;
+}
+
+.posts {
+  color: white;
+}
+
+.acc {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.infoContainer {
+  margin: 20px 0px;
+}

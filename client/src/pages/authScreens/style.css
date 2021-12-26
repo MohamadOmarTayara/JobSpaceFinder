@@ -1,0 +1,132 @@
+.page {
+  /* background-color: #105652; */
+  /* background-color: #dfd8ca; */
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.image {
+  margin-left: 100px;
+}
+.image2 {
+  margin-left: 170px;
+  padding-bottom: 20px;
+}
+
+.name {
+  font-size: 5.5rem;
+  color: #b91646;
+  /* text-shadow: 2px 3px 0px rgb(0, 0, 0); */
+  text-shadow: 1.5px 2px 0px rgba(255, 255, 255, 0.589);
+}
+
+.top {
+  display: flex;
+  z-index: 10;
+  position: cover;
+  align-items: center;
+  width: 100%;
+  background-color: #105652;
+  padding: 30px 50px;
+  justify-content: center;
+  /* text-shadow: 20px 3px 0px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0px 5px 10px;
+}
+
+.bot {
+  background-color: #fbf3e4;
+  align-items: center;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+}
+
+.page img {
+  width: 190px;
+}
+
+.form button {
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0px;
+  padding: 15px 15px;
+  width: 100%;
+  background-color: #b91646;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign-up {
+  color: #b91646;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-up:hover {
+  box-shadow: 0 px 0px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+.form button:hover {
+  background-color: #b91646;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.form button:focus {
+  outline: none;
+}
+
+.form input {
+  width: 100%;
+  padding: 15px 15px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  border: 1px solid #105652;
+  background: transparent;
+  color: #105652;
+}
+
+.form input::placeholder {
+  color: #105652;
+}
+
+.form input:focus,
+input:hover {
+  outline: none;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.page a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+
+  text-align: center;
+}
+.page a:hover {
+  text-decoration: underline;
+  text-decoration-color: #0084a8;
+}
+
+.form p {
+  color: rgb(236, 236, 236);
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 10px 0px;
+  text-align: center;
+}

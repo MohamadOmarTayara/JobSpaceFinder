@@ -1,0 +1,110 @@
+section {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  margin: auto;
+  opacity: 97%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.nav {
+  height: 75px;
+  display: flex;
+  width: 80%;
+  opacity: 90%;
+  margin: auto;
+}
+
+.nav-left {
+  flex: 3;
+  position: flex;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.name2 {
+  margin-left: 11px;
+  font-size: 2.5rem;
+  color: #b91646;
+  text-shadow: 0.5px 1.5px 0px rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+  width: 70px;
+}
+
+.nav-right {
+  display: flex;
+  flex: 4;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icon {
+  color: #105652;
+  margin: 0px 4px;
+  cursor: pointer;
+}
+
+.lock0 {
+  background-color: transparent;
+  border: none;
+}
+
+.lock:hover .icon-unlock,
+.lock .icon-lock {
+  display: none;
+}
+.lock:hover .icon-lock {
+  display: inline;
+  box-shadow: 0px 5px 0px;
+}
+
+.lock0:hover .icon0-unlock,
+.lock0 .icon0-lock {
+  display: none;
+}
+.lock0:hover .icon0-lock {
+  display: inline;
+  box-shadow: 0px 5px 0px;
+}
+
+.lock2:hover .icon2-unlock,
+.lock2 .icon2-lock {
+  display: none;
+}
+.lock2:hover .icon2-lock {
+  display: inline;
+  box-shadow: 0px 5px 0px;
+}
+
+.lock3:hover .icon3-unlock,
+.lock3 .icon3-lock {
+  display: none;
+  box-shadow: 0px 5px 0px;
+}
+.lock3:hover .icon3-lock {
+  display: inline;
+  box-shadow: 0px 5px 0px;
+}
+
+.lock4:hover .icon4-unlock,
+.lock4 .icon4-lock {
+  display: none;
+}
+.lock4:hover .icon4-lock {
+  display: inline;
+  box-shadow: 0px 5px 0px;
+}
+
+.lock5:hover .icon5-unlock,
+.lock5 .icon5-lock {
+  display: none;
+}
+.lock5:hover .icon5-lock {
+  display: inline;
+  box-shadow: 0px 5px 0px;
+}

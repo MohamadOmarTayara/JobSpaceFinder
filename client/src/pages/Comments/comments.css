@@ -1,0 +1,87 @@
+.Comments-container {
+  width: 70%;
+  background: #fbf3e4;
+
+  justify-content: center;
+  margin: 35px 0px;
+  border-radius: 14px;
+  padding: 25px;
+}
+
+.font {
+  color: #105652;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.profilePic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+.space {
+  max-height: 32rem;
+  max-width: 32rem;
+  /* height: 100rem; */
+}
+.name {
+  display: inline;
+}
+.link {
+  color: #105652;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #b91646;
+}
+
+.content {
+  color: #105652;
+  margin: 25px 0px;
+  font-size: 22px;
+  white-space: pre-wrap;
+}
+
+.buttons-sec {
+  display: flex;
+  margin: 0px 10px 10px 10px;
+}
+
+.btns {
+  padding: 4px 10px;
+  background-color: #105652;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.btns:hover {
+  background-color: #b91646;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ComAcc {
+  margin-top: 25px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.Acc-heade {
+  display: flex;
+  margin: auto;
+  color: red;
+  justify-content: center;
+}
+
+.comments-section {
+  max-height: 40rem;
+  overflow-y: scroll;
+}

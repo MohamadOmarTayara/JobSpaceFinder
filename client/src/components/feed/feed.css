@@ -1,0 +1,37 @@
+.container {
+  background: white;
+  min-height: 100%;
+  min-width: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  width: 100%;
+}
+
+.feed {
+  width: 85%;
+  background: white;
+  margin: 35px 0px;
+  border-radius: 14px;
+  padding: 25px;
+}
+
+.posts {
+  background: #105652;
+  margin: 20px 0px;
+  color: white;
+  min-height: 20px;
+  padding: 15px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.post-user {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.post-desc {
+  font-size: 16px;
+}
